@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B267D8BD7355A023E8CF8B3 /* Pods_IQKeyBoardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D86742C252439CE79F6C67 /* Pods_IQKeyBoardApp.framework */; };
 		23348F6C21B7BBBA003E16BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23348F6B21B7BBBA003E16BD /* AppDelegate.swift */; };
 		23348F6E21B7BBBA003E16BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23348F6D21B7BBBA003E16BD /* ViewController.swift */; };
 		23348F7121B7BBBA003E16BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23348F6F21B7BBBA003E16BD /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		23348F7621B7BBBB003E16BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23348F7421B7BBBB003E16BD /* LaunchScreen.storyboard */; };
 		23348F8121B7BBBB003E16BD /* IQKeyBoardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23348F8021B7BBBB003E16BD /* IQKeyBoardAppTests.swift */; };
 		23348F8C21B7BBBB003E16BD /* IQKeyBoardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23348F8B21B7BBBB003E16BD /* IQKeyBoardAppUITests.swift */; };
+		A056312B390D4C67C5719808 /* Pods_IQKeyBoardAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83B55F5E35B0D3E5B583B35 /* Pods_IQKeyBoardAppUITests.framework */; };
+		BA39BCAD9459CD2D7D409A3D /* Pods_IQKeyBoardAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314D907DB9274232D2E4BDF6 /* Pods_IQKeyBoardAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		23348F8721B7BBBB003E16BD /* IQKeyBoardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyBoardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23348F8B21B7BBBB003E16BD /* IQKeyBoardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyBoardAppUITests.swift; sourceTree = "<group>"; };
 		23348F8D21B7BBBB003E16BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB53A855DEBEE9331365F50 /* Pods-IQKeyBoardAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyBoardAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyBoardAppUITests/Pods-IQKeyBoardAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		314D907DB9274232D2E4BDF6 /* Pods_IQKeyBoardAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQKeyBoardAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D86742C252439CE79F6C67 /* Pods_IQKeyBoardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQKeyBoardApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		706895F8E62E82BF25D82FCE /* Pods-IQKeyBoardAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyBoardAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyBoardAppTests/Pods-IQKeyBoardAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		749313E32855F0545F65EF0F /* Pods-IQKeyBoardAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyBoardAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyBoardAppUITests/Pods-IQKeyBoardAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88A67D86671DB118178AA1DE /* Pods-IQKeyBoardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyBoardApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyBoardApp/Pods-IQKeyBoardApp.debug.xcconfig"; sourceTree = "<group>"; };
+		94AB877E4A06AFCB59C6A99B /* Pods-IQKeyBoardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyBoardApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyBoardApp/Pods-IQKeyBoardApp.release.xcconfig"; sourceTree = "<group>"; };
+		B83B55F5E35B0D3E5B583B35 /* Pods_IQKeyBoardAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IQKeyBoardAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10934D4F7AF806EB5F9462D /* Pods-IQKeyBoardAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyBoardAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyBoardAppTests/Pods-IQKeyBoardAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B267D8BD7355A023E8CF8B3 /* Pods_IQKeyBoardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA39BCAD9459CD2D7D409A3D /* Pods_IQKeyBoardAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A056312B390D4C67C5719808 /* Pods_IQKeyBoardAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				23348F7F21B7BBBB003E16BD /* IQKeyBoardAppTests */,
 				23348F8A21B7BBBB003E16BD /* IQKeyBoardAppUITests */,
 				23348F6921B7BBBA003E16BD /* Products */,
+				6912FF24A9129CE9F03B056D /* Pods */,
+				EAA1CA0B83485F851F47EE9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = IQKeyBoardAppUITests;
 			sourceTree = "<group>";
 		};
+		6912FF24A9129CE9F03B056D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88A67D86671DB118178AA1DE /* Pods-IQKeyBoardApp.debug.xcconfig */,
+				94AB877E4A06AFCB59C6A99B /* Pods-IQKeyBoardApp.release.xcconfig */,
+				F10934D4F7AF806EB5F9462D /* Pods-IQKeyBoardAppTests.debug.xcconfig */,
+				706895F8E62E82BF25D82FCE /* Pods-IQKeyBoardAppTests.release.xcconfig */,
+				749313E32855F0545F65EF0F /* Pods-IQKeyBoardAppUITests.debug.xcconfig */,
+				2EB53A855DEBEE9331365F50 /* Pods-IQKeyBoardAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAA1CA0B83485F851F47EE9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D86742C252439CE79F6C67 /* Pods_IQKeyBoardApp.framework */,
+				314D907DB9274232D2E4BDF6 /* Pods_IQKeyBoardAppTests.framework */,
+				B83B55F5E35B0D3E5B583B35 /* Pods_IQKeyBoardAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23348F9021B7BBBB003E16BD /* Build configuration list for PBXNativeTarget "IQKeyBoardApp" */;
 			buildPhases = (
+				EA3B1832E08DEE77B24E8FF7 /* [CP] Check Pods Manifest.lock */,
 				23348F6421B7BBBA003E16BD /* Sources */,
 				23348F6521B7BBBA003E16BD /* Frameworks */,
 				23348F6621B7BBBA003E16BD /* Resources */,
+				863E780F878C698D25C546BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23348F9321B7BBBB003E16BD /* Build configuration list for PBXNativeTarget "IQKeyBoardAppTests" */;
 			buildPhases = (
+				6466AB2DC65A148E21515156 /* [CP] Check Pods Manifest.lock */,
 				23348F7821B7BBBB003E16BD /* Sources */,
 				23348F7921B7BBBB003E16BD /* Frameworks */,
 				23348F7A21B7BBBB003E16BD /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23348F9621B7BBBB003E16BD /* Build configuration list for PBXNativeTarget "IQKeyBoardAppUITests" */;
 			buildPhases = (
+				CE51908D505E4D345A7669A8 /* [CP] Check Pods Manifest.lock */,
 				23348F8321B7BBBB003E16BD /* Sources */,
 				23348F8421B7BBBB003E16BD /* Frameworks */,
 				23348F8521B7BBBB003E16BD /* Resources */,
@@ -250,6 +294,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6466AB2DC65A148E21515156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyBoardAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863E780F878C698D25C546BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyBoardApp/Pods-IQKeyBoardApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyBoardApp/Pods-IQKeyBoardApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE51908D505E4D345A7669A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyBoardAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA3B1832E08DEE77B24E8FF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyBoardApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23348F6421B7BBBA003E16BD /* Sources */ = {
@@ -430,6 +565,7 @@
 		};
 		23348F9121B7BBBB003E16BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A67D86671DB118178AA1DE /* Pods-IQKeyBoardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +583,7 @@
 		};
 		23348F9221B7BBBB003E16BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AB877E4A06AFCB59C6A99B /* Pods-IQKeyBoardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +601,7 @@
 		};
 		23348F9421B7BBBB003E16BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F10934D4F7AF806EB5F9462D /* Pods-IQKeyBoardAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +622,7 @@
 		};
 		23348F9521B7BBBB003E16BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706895F8E62E82BF25D82FCE /* Pods-IQKeyBoardAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +643,7 @@
 		};
 		23348F9721B7BBBB003E16BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749313E32855F0545F65EF0F /* Pods-IQKeyBoardAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +663,7 @@
 		};
 		23348F9821B7BBBB003E16BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB53A855DEBEE9331365F50 /* Pods-IQKeyBoardAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
